@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/api/calculadora")
 public class CalculadoraController {
-
+	//Calculadora
     @GetMapping("/sumar")
     public double sumar(@RequestParam double a, @RequestParam double b) {
         return a + b;
