@@ -8,6 +8,7 @@ public class CalculadoraController {
 	//Calculadora
     @GetMapping("/sumar")
     public double sumar(@RequestParam double a, @RequestParam double b) {
+	System.out.println("Debug info");
         return a + b;
     }
 
